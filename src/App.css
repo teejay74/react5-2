@@ -1,0 +1,46 @@
+.App {
+  width: 1000px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  font-size: 1.2rem;
+}
+
+.AdsImg {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.SearchBlock {
+  margin-top: 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.SearcForm {
+  display: flex;
+  width: 100%;
+}
+
+.Input {
+    width: 80%;
+}
+
+.Button {
+  height: 30px;
+    background-color: yellow;
+  border-style: none;
+  cursor: pointer;
+  color: blue;
+  font-size: 1.2rem;
+}
+
+.Logo {
+  position: absolute;
+  left: -100px;
+  cursor: pointer;
+}
